@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+
+.container-one{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: 600px;
+    justify-content: space-around;
+    
+}
+
+.card-img-top{
+    width: 200px;
+    height: 500px;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+      display: flex;
+      flex-direction: column;
+    }
+  } 
